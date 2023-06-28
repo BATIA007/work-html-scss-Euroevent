@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="preload" as="style" href="css/font.css" />
+  <link rel="stylesheet" href="css/font.css" media="print" onload="this.media='all'" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <title>Euroevent</title>
+</head>
+
+<body>
+  <header class="screen">
+    <nav class="screen__nav font-1">
+      <a href="index.html" class="header__image header__img">
+        <img width="46" height="46" src="images/logo-header.png" alt="logo" class="header__img" />
+        <img width="130" height="13" src="images/main/euroevent.svg" alt="euroevent" class="header__text" />
+      </a>
+      <div class="header__languages screen__languages">
+        <a href="#" class="header__lang">Rus</a>
+        <a href="#" class="header__lang">Eng</a>
+      </div>
+      <div class="header__nav">
+        <a href="index.html" class="screen__link header__link header__link-active">
+          Главная страница
+        </a>
+        <a href="services.html" class="screen__link header__link">Услуги</a>
+        <a href="portfolio.html" class="screen__link header__link">Портфолио</a>
+        <a href="clients.html" class="screen__link header__link">Клиенты</a>
+        <a href="about.html" class="screen__link header__link">О компании</a>
+        <a href="contacts.html" class="screen__link header__link">Контакты</a>
+        <div class="header__languages">
+          <a href="#" class="header__lang">Rus</a>
+          <a href="#" class="header__lang">Eng</a>
+        </div>
+      </div>
+      <span class="header__mobile"><span class="header__burger"></span></span>
+    </nav>
+    <div class="screen__wrapper wrapper">
+      <ul class="screen__socials">
+        <li class="screen__social-line">
+          <a href="tel:+79859672024" class="header__social">
+            <svg width="16" height="16" fill="#09121F">
+              <use href="images/sprite.svg#phone" />
+            </svg>
+          </a>
+          <a href="index.html" class="header__social">
+            <svg width="18" height="14" fill="#09121F">
+              <use href="images/sprite.svg#mail" />
+            </svg>
+          </a>
+          <a href="index.html" class="header__social">
+            <svg width="18" height="18" fill="#09121F">
+              <use href="images/sprite.svg#facebook" />
+            </svg>
+          </a>
+        </li>
+        <li class="screen__social-line">
+          <a href="index.html" class="header__social">
+            <svg width="18" height="18" fill="#09121F">
+              <use href="images/sprite.svg#whatsapp" />
+            </svg>
+          </a>
+          <a href="index.html" class="header__social">
+            <svg width="16" height="16" fill="#09121F">
+              <use href="images/sprite.svg#telegramm" />
+            </svg>
+          </a>
+          <a href="index.html" class="header__social">
+            <svg width="20" height="20" fill="#09121F">
+              <use href="images/sprite.svg#vk" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <div class="screen__block">
+        <span class="screen__top-line"></span>
+        <div class="screen__content">
+          <img width="313" height="290" src="images/main/logo-big.png" srcset="
+                      images/main/logo-medium.png 1000w,
+                      images/main/logo-big.png 1001w,
+                      images/main/logo-medium-x2.png 2x" alt="logo" class="screen__image" />
+          <img width="515" height="51" src="images/main/euroevent.svg" alt="euroevent" class="screen__logo" />
+        </div>
+        <span class="screen__bottom-line"></span>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="info">
+      <div class="info__wrapper wrapper">
+        <h1 class="info__title title font-1">
+          <span class="inb" data-aos="fade-down">Превращаем
+            <br />
+            любое мероприятие<br /></span><span data-aos="zoom-in" data-aos-delay="200"
+            class="inb info__subtitle subtitle font-2"><span class="info__subtitle-margin">в</span>событие</span>
+        </h1>
+        <p class="info__text text">
+          Проводим мероприятия любого типа и масштаба для компаний и
+          государственных структур: форумы, выставки, конференции, семинары,
+          корпоративы, деловые завтраки, обеды, ужины, протокольные и закрытые
+          мероприятия, частные торжества, свадьбы, дни рождения, юбилеи,
+          празднования Нового года, профессиональные праздники.<br />
+          Ни один гость не останется равнодушным.
+        </p>
+        <p class="info__copyright text">
+          С 2000 года провели более 5 тысяч мероприятий
+        </p>
+      </div>
+      <a href="portfolio.html" class="info__button button font-1">
+        <span>Портфолио</span>
+      </a>
+      <div class="info__slider swiper">
+        <div class="swiper-wrapper">
+          <img style="object-position: 50% 60%" width="1459" height="579" src="images/main/info-1.jpg" loading="lazy"
+            alt="img-info" class="info__image swiper-slide" />
+          <img width="1459" height="579" src="images/main/info-2.jpg" loading="lazy" alt="img-info"
+            class="info__image swiper-slide info__image-2" />
+          <img style="object-position: 50% 0%" width="1459" height="579" src="images/main/info-3.jpg" loading="lazy"
+            alt="img-info" class="info__image swiper-slide" />
+          <img width="1459" height="579" src="images/main/info-4.jpg" loading="lazy" alt="img-info"
+            class="info__image swiper-slide info__image-4" />
+          <img width="1459" height="579" style="object-position: 50% 60%" src="images/main/info-5.jpg" loading="lazy"
+            alt="img-info" class="info__image swiper-slide" />
+        </div>
+      </div>
+      <div class="info__bottom wrapper">
+        <div class="info__flex">
+          <div class="info__left">
+            <h2 class="info__caption font-1 title">
+              <span data-aos="fade-down" class="info__caption-line">Концепция</span>
+              <span data-aos="fade-down" class="inb">
+                будет яркой, а каждая деталь –
+              </span>
+
+              <span data-aos="zoom-in" data-aos-delay="200" class="inb info__subcaption font-2 subtitle">
+                продуманной
+              </span>
+            </h2>
+            <div class="info__pagination"></div>
+          </div>
+          <div class="info__right text">
+            <p class="info__text-margin">
+              Провести мероприятие значит решить множество задач: построить
+              сцену или стенд, создать декорации, выбрать ведущих и артистов,
+              подобрать профессиональную команду обслуживающего персонала и
+              сшить для неё униформу, напечатать красивые пригласительные,
+              произвести брендированные сувениры и подарки, обеспечить
+              трансфер и безопасность, а также сделать многое другое.
+            </p>
+            <p>
+              Ваш персональный менеджер позаботится обо всём: подберёт меню и
+              составит план мероприятия, опираясь на ваши пожелания.
+            </p>
+          </div>
+        </div>
+        <div class="info__more">
+          <p class="info__subtext text">Подробнее о том, что мы делаем</p>
+          <a href="services.html" class="info__services button font-1">
+            <span>Услуги</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <div class="wrapper-left features__block">
+        <div class="features__content">
+          <div class="title-block features__title-block">
+            <h3 class="features__title title font-1">
+              <span class="features__subtitle subtitle sub-block font-2">
+                <span data-aos="fade-down" class="inb">Еда</span>
+                <span class="sub-line"></span>
+              </span>
+              <span data-aos="fade-right" data-aos-delay="200" class="inb">имеет значение</span>
+            </h3>
+            <div class="features__pagination"></div>
+            <span class="features__line-left line-left"></span>
+            <span class="features__line-right line-right"></span>
+          </div>
+          <p class="features__text text">
+            Банкет, гала-ужин, фуршет, бизнес-ланч или кофе-брейк – каким бы
+            ни был формат, мы найдём чем удивить гостей. Для нас важно всё:
+            дизайн блюда, выбор посуды и скатертей, оформление столов.
+            Обеспечим уровень сервиса на уровне лучших столичных ресторанов,
+            где бы ваше мероприятие ни проходило.
+          </p>
+        </div>
+        <div class="features__slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="images/main/features-1-320.jpg" media="(max-width:1000px)" />
+                <img src="images/main/features-1.jpg" width="1321" height="763" loading="lazy" alt="img-slide"
+                  class="features__image" />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="images/main/features-2-320.jpg" media="(max-width:1000px)" />
+                <img src="images/main/features-2.jpg" width="1321" height="763" loading="lazy" alt="img-slide"
+                  class="features__image" />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="images/main/features-3-320.jpg" media="(max-width:1000px)" />
+                <img src="images/main/features-3.jpg" width="1321" height="763" loading="lazy" alt="img-slide"
+                  class="features__image" />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="images/main/features-4-320.jpg" media="(max-width:1000px)" />
+                <img src="images/main/features-4.jpg" width="1321" height="763" loading="lazy" alt="img-slide"
+                  class="features__image" />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="images/main/features-5-320.jpg" media="(max-width:1000px)" />
+                <img src="images/main/features-5.jpg" width="1321" height="763" loading="lazy" alt="img-slide"
+                  class="features__image" />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="images/main/features-6-320.jpg" media="(max-width:1000px)" />
+                <img src="images/main/features-6.jpg" width="1321" height="763" loading="lazy" alt="img-slide"
+                  class="features__image" />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="images/main/features-7-320.jpg" media="(max-width:1000px)" />
+                <img src="images/main/features-7.jpg" width="1321" height="763" loading="lazy" alt="img-slide"
+                  class="features__image" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="event">
+      <div class="event__block wrapper-right">
+        <div class="event__content">
+          <h3 class="event__title title font-1">
+            <span class="inb" data-aos-offset="50" data-aos="fade-down">Каждому мероприятию –</span><br />
+            <span data-aos="fade-right" data-aos-delay="200" data-aos-offset="50"
+              class="inb event__subtitle subtitle font-2">индивидуально</span>
+            <span data-aos-delay="400" data-aos-offset="50" class="inb" data-aos="fade-down">подобранное меню</span>
+            <span class="event__line line-left"></span>
+            <span class="event__line-bottom"></span>
+          </h3>
+          <div class="event__pagination"></div>
+          <p class="event__text text">
+            Умеем готовить любые блюда: от простых до самых изысканных. Ваши
+            гости могут иметь любые предпочтения: быть вегетарианцами,
+            находиться на безглютеновой или безлактозной диете, соблюдать
+            традиции халяльной или кошерной кухни. Мы знаем рецепты лучших
+            молекулярных и домашних блюд – и найдём, чем порадовать всех.
+          </p>
+        </div>
+        <div class="event__slider" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="600">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img width="378" height="572" src="images/main/event-1.jpg" srcset="images/main/event-1x@2.jpg 2x"
+                loading="lazy" alt="event-slide" class="event__image" />
+              <span class="loop"></span>
+            </div>
+            <div class="swiper-slide">
+              <img width="378" height="572" src="images/main/event-2.png" srcset="images/main/event-2.png 2x"
+                loading="lazy" alt="event-slide" class="event__image" />
+              <span class="loop"></span>
+            </div>
+            <div class="swiper-slide">
+              <img width="378" height="572" src="images/main/event-3.jpg" srcset="images/main/event-3x@2.jpg 2x"
+                loading="lazy" alt="event-slide" class="event__image" />
+              <span class="loop"></span>
+            </div>
+            <div class="swiper-slide">
+              <img width="378" height="572" src="images/main/event-4.jpg" srcset="images/main/event-4x@2.jpg 2x"
+                loading="lazy" alt="event-slide" class="event__image" />
+              <span class="loop"></span>
+            </div>
+            <div class="swiper-slide">
+              <img width="378" height="572" src="images/main/event-5.jpg" srcset="images/main/event-5x@2.jpg 2x"
+                loading="lazy" alt="event-slide" class="event__image" />
+              <span class="loop"></span>
+            </div>
+            <div class="swiper-slide">
+              <img width="378" height="572" src="images/main/event-6.jpg" srcset="images/main/event-6x@2.jpg 2x"
+                loading="lazy" alt="event-slide" class="event__image" />
+              <span class="loop"></span>
+            </div>
+            <div class="swiper-slide">
+              <img width="378" height="572" src="images/main/event-7.jpg" srcset="images/main/event-7x@2.jpg 2x"
+                loading="lazy" alt="event-slide" class="event__image" />
+              <span class="loop"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="map">
+      <span class="line-bottom map__line-right"></span>
+      <div class="map__wrapper wrapper">
+        <span class="sub-border"></span>
+        <h2 data-aos="fade-down" class="map__title title font-1">
+          <span class="sub-bg">Нет
+            <span class="subtitle map__subtitle font-2">задачи,</span></span>
+          <br />
+          которая нам не под силу
+        </h2>
+      </div>
+      <div class="map__block">
+        <div class="map__container wrapper">
+          <div class="map__content">
+            <h4 class="map__caption title-1 font-1">
+              <span data-aos="fade-down" class="inb map__subcaption subtitle-1 font-2">Работаем</span><br />
+              <span data-aos="fade-right" data-aos-delay="200" class="inb">в любой точке мира</span>
+            </h4>
+            <p class="map__text text-1">
+              Проводили мероприятия в России от Калининграда до Владивостока.
+              Организовывали ивенты за рубежом: в Австрии, Болгарии,
+              Великобритании, Германии, ОАЭ, Израиле, Испании, Италии,
+              Турции.<br />
+              А где бы хотели провести мероприятие вы?
+            </p>
+          </div>
+          <img width="556" height="275" src="images/main/map.png" alt="map" loading="lazy" class="map__image" />
+        </div>
+      </div>
+    </section>
+    <section class="ready">
+      <div class="ready__wrapper wrapper">
+        <div class="ready__item ready__item-1">
+          <h4 class="ready__title title-1 font-1">
+            <span class="line-left ready__line-left"></span>
+            <span class="line-right ready__line-right"></span>
+            <span class="ready__subtitle-1 sub-block subtitle-1 font-2">
+              <span data-aos="fade-down" class="inb">Готовы</span>
+              <span class="sub-line"></span>
+            </span>
+            <span class="inb" data-aos="fade-right" data-aos-delay="200">к любому числу гостей</span>
+          </h4>
+          <p class="ready__text text-1">
+            Камерное мероприятие для нескольких человек или событие, на
+            которое приедут тысячи людей – к любому проекту мы подойдём
+            максимально ответственно. Масштаб определяете вы, обо всём
+            остальном позаботимся мы.
+          </p>
+        </div>
+        <div class="ready__item ready__item-2">
+          <h4 class="ready__title title-1 font-1">
+            <span class="line-left ready__line-left"></span>
+            <span class="line-right ready__line-right"></span>
+            <span class="ready__subtitle subtitle-1 sub-block font-2"><span class="inb"
+                data-aos="fade-down">Знаем,</span><span class="sub-line"></span></span>
+            <span data-aos="fade-right" data-aos-delay="200" class="inb">что нужно первым лицам
+            </span>
+          </h4>
+          <p class="ready__text text-1">
+            Мы обеспечиваем проведение мероприятий самого высокого уровня – с
+            участием глав государств, мэров городов, губернаторов регионов,
+            топ-менеджмента компаний, медийных персон.
+          </p>
+          <p class="ready__text-margin text-1 ready__text">
+            Обеспечиваем безукоризненное качество, полную безопасность и
+            конфиденциальность.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div style="opacity: 0" class="overlay">
+      <div class="overlay__wrapper">
+        <div class="overlay__content">
+          <span class="overlay__close"></span>
+        </div>
+      </div>
+    </div>
+    <span class="up">
+      <svg width="18" height="18">
+        <use href="images/sprite.svg#up" />
+      </svg>
+    </span>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper wrapper">
+      <a href="index.html" class="footer__link font-1">EUROEVENT</a>
+      <div class="footer__right">
+        <ul class="footer__socials">
+          <li class="footer__social-link">
+            <a href="tel:+79859672024" class="header__social">
+              <svg width="16" height="16" fill="#ffffff">
+                <use href="images/sprite.svg#phone" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-link">
+            <a href="index.html" class="header__social">
+              <svg width="18" height="14" fill="#ffffff">
+                <use href="images/sprite.svg#mail" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-link">
+            <a href="index.html" class="header__social">
+              <svg width="18" height="18" fill="#ffffff">
+                <use href="images/sprite.svg#facebook" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-link">
+            <a href="index.html" class="header__social">
+              <svg width="18" height="18" fill="#ffffff">
+                <use href="images/sprite.svg#whatsapp" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-link">
+            <a href="index.html" class="header__social">
+              <svg width="16" height="16" fill="#ffffff">
+                <use href="images/sprite.svg#telegramm" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-link">
+            <a href="index.html" class="header__social">
+              <svg width="20" height="20" fill="#ffffff">
+                <use href="images/sprite.svg#vk" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <a href="index.html" class="footer__copyright">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/sliders.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

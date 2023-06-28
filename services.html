@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/other.css" />
+  <link rel="preload" as="style" href="css/font.css" />
+  <link rel="stylesheet" href="css/font.css" media="print" onload="this.media='all'" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <title>Euroevent</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header__wrapper wrapper font-1">
+      <a href="index.html" class="header__image header__img">
+        <img width="187" height="170" src="images/main/logo-medium.png" srcset="
+              images/logo-header.png      1000w,
+              images/main/logo-medium.png 1001w
+            " alt="logo" class="header__img" />
+        <img width="130" height="13" src="images/main/euroevent.svg" alt="euroevent" class="header__text" />
+        <img width="129" height="15" src="images/main/since.svg" alt="since" class="header__since" />
+      </a>
+      <div class="header__nav">
+        <a href="index.html" class="header__link"> Главная страница </a>
+        <a href="services.html" class="header__link header__link-active">Услуги</a>
+        <a href="portfolio.html" class="header__link">Портфолио</a>
+        <a href="clients.html" class="header__link">Клиенты</a>
+        <a href="about.html" class="header__link">О компании</a>
+        <a href="contacts.html" class="header__link">Контакты</a>
+        <div class="header__languages">
+          <a href="#" class="header__lang">Rus</a>
+          <a href="#" class="header__lang">Eng</a>
+        </div>
+      </div>
+      <ul class="header__socials">
+        <li class="header__social-link">
+          <a href="tel:+79859672024" class="header__social">
+            <svg width="16" height="16" fill="#09121F">
+              <use href="images/sprite.svg#phone" />
+            </svg>
+          </a>
+        </li>
+        <li class="header__social-link">
+          <a href="index.html" class="header__social">
+            <svg width="18" height="14" fill="#09121F">
+              <use href="images/sprite.svg#mail" />
+            </svg>
+          </a>
+        </li>
+        <li class="header__social-link">
+          <a href="index.html" class="header__social">
+            <svg width="18" height="18" fill="#09121F">
+              <use href="images/sprite.svg#whatsapp" />
+            </svg>
+          </a>
+        </li>
+        <li class="header__social-link">
+          <a href="index.html" class="header__social">
+            <svg width="18" height="18" fill="#09121F">
+              <use href="images/sprite.svg#facebook" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <span class="header__mobile"><span class="header__burger"></span></span>
+    </nav>
+  </header>
+  <main>
+    <section class="format">
+      <div class="format__slider">
+        <h1 class="subtitle font-2 portfolio__title">Услуги</h1>
+        <div class="swiper-wrapper">
+          <div data-title="Банкет"
+            data-text="Роскошная сервировка, изысканный декор, широкий выбор блюд и напитков (от традиционных до авторских) и безупречная работа команды поваров и официантов – вот составляющие идеального банкета. Нередко именно от его качества зависит, каким запомнится мероприятие гостям. "
+            class="swiper-slide format__slide">
+            <img src="images/services/format-1.jpg" alt="slide-1" class="format__image format__image-1" />
+          </div>
+          <div data-title="Фуршет или коктейль"
+            data-text="Официальный приём, праздничный фуршет или светский коктейль – во всех случаях гости сами выбирают блюда, десерты и напитки. Высокие стандарты обслуживания в сочетании с утончённым декором фуршетной линии не оставят равнодушным даже самого искушённого гостя."
+            class="swiper-slide format__slide">
+            <img loading="lazy" src="images/services/format-2.jpg" alt="slide-2"
+              class="format__image format__image-2" />
+          </div>
+          <div data-title="Кофе-брейк"
+            data-text="Мини-фуршет, на который обычно отводится не больше получаса. В меню – различные сорта чая, кофе, горячие и холодные закуски, десерты. В перерыве между мероприятиями основной программы гости общаются в неформальной обстановке в специально организованной зоне делового общения."
+            class="swiper-slide format__slide">
+            <img loading="lazy" src="images/services/format-3.jpg" alt="slide-3"
+              class="format__image format__image-3" />
+          </div>
+        </div>
+      </div>
+      <div class="format__block wrapper">
+        <div class="format__top">
+          <h1 class="title format__title font-1">
+            <span class="sub-block format__border">
+              <span class="sub-line format__left"></span>
+              <span data-aos="fade-down" class="inb">Форматы</span>
+              <span class="sub-line format__right"></span>
+            </span>
+            <span data-aos="fade-down" data-aos-delay="200"
+              class="subtitle font-2 inb format__subtitle">мероприятий</span>
+          </h1>
+          <div class="format__pagination"></div>
+        </div>
+        <span class="subtitle-1 font-2 format__subtitle-1">Банкет</span>
+        <p class="format__text text">
+          Роскошная сервировка, изысканный декор, широкий выбор блюд и
+          напитков (от традиционных до авторских) и безупречная работа команды
+          поваров и официантов – вот составляющие идеального банкета. Нередко
+          именно от его качества зависит, каким запомнится мероприятие гостям.
+        </p>
+      </div>
+    </section>
+    <section class="organis organis-orig">
+      <div class="wrapper-left">
+        <h2 class="title font-1 organis__title-1">
+          <span data-aos="fade-down" class="inb">Организация</span><br />
+          <span data-aos="fade-right" data-aos-delay="200" class="subtitle font-2 organis__subtitle-1">торжеств</span>
+        </h2>
+        <div class="organis__block organis__block-1">
+          <div class="organis__block organis__block-1 organis__mobile"></div>
+          <div class="organis__content">
+            <h3 class="organis__title title font-1">
+              <span class="organis__subtitle subtitle-1 sub-block font-2">
+                <span data-aos="fade-down" class="inb">Свадьба</span>
+                <span class="sub-line"></span>
+              </span>
+              <span class="organis__line-left line-left"></span>
+              <span class="organis__line-right line-right"></span>
+            </h3>
+            <p class="organis__text text">
+              Ни одна пара не похожа на другую, и каждая свадьба должна быть
+              особенной – с уникальной идеей, декором, программой, меню и
+              сервировкой. Уловим все ваши желания, услышим мечты и предложим
+              оригинальное воплощение праздника, которое подчеркнёт
+              индивидуальность вашей пары и запомнится на всю жизнь самым
+              счастливым моментом.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="organis__block organis__block-2 wrapper-right">
+        <div class="organis__block organis__block-2 organis__mobile"></div>
+        <div class="organis__content">
+          <h3 class="organis__title title font-1">
+            <span class="organis__subtitle subtitle-1 sub-block font-2">
+              <span data-aos="fade-down" class="inb">День рождения</span>
+              <span class="sub-line"></span>
+            </span>
+            <span class="organis__line-left line-left"></span>
+            <span class="organis__line-right line-right"></span>
+          </h3>
+          <p class="organis__text text">
+            Костюмированная вечеринка,<br />
+            прогулка по реке, танцы до утра<br />
+            на теплоходе, уютный праздник в кругу родных и близких с
+            задуванием свечей на торте – формат дня рождения может быть любым.
+            Главное – чтобы он отражал ваши вкусы, а мы всё сделаем на высоте.
+          </p>
+        </div>
+      </div>
+      <div class="organis__block organis__block-3 wrapper-left">
+        <div class="organis__block organis__block-3 organis__mobile"></div>
+        <div class="organis__content">
+          <h3 class="organis__title title font-1">
+            <span class="organis__subtitle subtitle-1 sub-block font-2">
+              <span data-aos="fade-down" class="inb">Юбилей </span>
+              <span class="sub-line"></span>
+            </span>
+            <span class="organis__line-left line-left"></span>
+            <span class="organis__line-right line-right"></span>
+          </h3>
+          <p class="organis__text text">
+            Юбилей может быть личным, семейным и профессиональным. Но всегда
+            круглая дата – это больше, чем просто торжественное событие.
+            Юбилей – важная точка, в которой есть что вспомнить и есть к чему
+            стремиться. Наша задача – сделать это событие ярким и
+            запоминающимся.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="lead">
+      <div class="lead__container">
+        <span class="line-bottom lead__line"></span>
+        <div class="lead__wrapper wrapper">
+          <div class="lead__pagination"></div>
+          <h2 class="title lead__title font-1">
+            <span class="sub-block format__border">
+              <span class="sub-line format__left"></span>
+              <span data-aos="fade-down" class="inb">Ведущие</span>
+              <span class="sub-line format__right"></span>
+            </span>
+            <span data-aos="fade-down" data-aos-delay="200" class="inb subtitle font-2 format__subtitle">и шоу-программа
+            </span>
+          </h2>
+        </div>
+        <div class="lead__slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide lead__slide">
+              <img style="object-position: 60% 65%" width="1440" height="505" src="images/services/lead-1.jpg"
+                loading="lazy" alt="lead-slide-1" class="lead__image" />
+              <div class="lead__content">
+                <h4 class="lead__subtitle subtitle-1 font-2">Ведущие</h4>
+                <p class="lead__text text">
+                  Без хорошего ведущего гости на мероприятии быстро заскучают
+                  и не будут знать, что делать дальше. Настоящий профессионал
+                  умеет поддерживать правильную атмосферу и при необходимости
+                  импровизировать.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide lead__slide">
+              <img style="object-position: 50% 80%" width="1440" height="505" src="images/services/lead-2.jpg"
+                loading="lazy" alt="lead-slide-2" class="lead__image" />
+              <div class="lead__content">
+                <h4 class="lead__subtitle subtitle-1 font-2">
+                  Музыканты и другие артисты
+                </h4>
+                <p class="lead__text text">
+                  Если на вашем мероприятии есть сцена – важно, кто на ней
+                  появится. Участие российских и зарубежных артистов,
+                  музыкантов, кавер-бэнда, танцевальных коллективов,
+                  иллюзионистов, мастеров огненного шоу поднимает статус
+                  мероприятия и торжества на совершенно иной качественно
+                  организационный уровень.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide lead__slide">
+              <img width="1440" height="505" src="images/services/lead-3.jpg" loading="lazy" alt="lead-slide-3"
+                class="lead__image lead__image-3" />
+              <div class="lead__content">
+                <h4 class="lead__subtitle subtitle-1 font-2">
+                  Фейерверк и салют
+                </h4>
+                <p class="lead__text text">
+                  Восторг от фейерверка испытывает каждый. Благодаря салюту
+                  мероприятие становится торжественным. Декоративные огни и
+                  разноцветные залпы в воздух, надписи цифр, имён и названий –
+                  кульминация любого праздника. Мы создадим индивидуальное
+                  пиротехническое шоу, оторваться от которого невозможно.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="design wrapper-left">
+      <div class="design__block">
+        <div class="design__content">
+          <div class="design__mob-wrapper">
+            <h3 class="design__title title font-1">
+              <span data-aos="fade-down" class="design__subtitle subtitle-1 font-2 inb">
+                <span class="sub-block">
+                  Оформление
+                  <span class="sub-line"></span>
+                </span>
+                пространства
+              </span>
+              <span data-aos="fade-right" data-aos-delay="200" class="inb">
+                дизайн и свет
+              </span>
+              <span class="design__line-left line-left"></span>
+              <span class="design__line-right line-right"></span>
+              <span class="design__line-bottom line-bottom"></span>
+            </h3>
+            <div class="design__pagination"></div>
+          </div>
+          <span class="inb design__subtitle-1 subtitle-1 font-2">Флористика</span>
+          <p class="design__text text">
+            Оригинальные композиции, икебаны, корзины, бутоньерки с
+            экзотическими растениями позволят сделать оформление мероприятия
+            незабываемым. Наши флористы обладают утончённым вкусом и знают
+            правила сочетания цветов.
+          </p>
+        </div>
+        <div class="design__slider">
+          <div class="swiper-wrapper">
+            <div data-title="Флористика"
+              data-text="Оригинальные композиции, икебаны, корзины, бутоньерки с экзотическими растениями позволят сделать оформление мероприятия незабываемым. Наши флористы обладают утончённым вкусом и знают правила сочетания цветов."
+              class="swiper-slide design__slide">
+              <img height="650" width="1213" src="images/services/design-1.jpg" loading="lazy" alt="design-1"
+                class="design__image" />
+            </div>
+            <div data-title="Декорации"
+              data-text="Создадим любой интерьер и атмосферу по вашему вкусу. При необходимости перенесем вас и ваших гостей в другую культуру или эпоху."
+              class="swiper-slide design__slide">
+              <img height="650" width="1213" src="images/services/design-2.jpg" loading="lazy" alt="design-2"
+                class="design__image" />
+            </div>
+            <div data-title="Игра света и тени" data-text="Представьте, как луч прорезывает 
+                облака разноцветного дыма и преломляется в пирамиде бокалов.
+                Современная световая аппаратура позволит наполнить волшебством любое пространство и заворожить гостей."
+              class="swiper-slide design__slide">
+              <img height="650" width="1213" src="images/services/design-3.jpg" loading="lazy" alt="design-3"
+                class="design__image" />
+            </div>
+            <div data-title="Воздушные шары"
+              data-text="Композиции из шаров позволяют добиться отличного эффекта за сравнительно небольшую стоимость. Подойдут для свадьбы, дня рождения, корпоративного мероприятия, праздника в школе или университете."
+              class="swiper-slide design__slide">
+              <img height="650" width="1213" src="images/services/design-4.jpg" loading="lazy" alt="design-4"
+                class="design__image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="personal">
+      <div class="personal__block">
+        <span class="personal__top-line"></span>
+        <span class="personal__bottom-line"></span>
+        <div class="personal__wrapper wrapper">
+          <div class="personal__container">
+            <div class="personal__slider">
+              <div class="swiper-wrapper">
+                <div data-title="Официанты"
+                  data-text="Чаще всего работают на банкетах и фуршетах, но могут оказаться полезными и на большом стенде. Разбираются в ассортименте закусок и напитков. Отличаются безупречной вежливостью и этикетом."
+                  class="swiper-slide">
+                  <img loading="lazy" width="409" height="554" srcset="
+                        images/services/personal-1x@2.jpg 280w,
+                        images/services/personal-1.jpg    320w
+                      " src="images/services/personal-1.jpg" alt="personal-1" class="personal__image" />
+                  <span class="loop"></span>
+                </div>
+                <div data-title="Официанты"
+                  data-text="Чаще всего работают на банкетах и фуршетах, но могут оказаться полезными и на большом стенде. Разбираются в ассортименте закусок и напитков. Отличаются безупречной вежливостью и этикетом."
+                  class="swiper-slide">
+                  <img loading="lazy" width="409" height="554" srcset="
+                        images/services/personal-2x@2.jpg 280w,
+                        images/services/personal-2.jpg    320w
+                      " src="images/services/personal-2.jpg" alt="personal-2" class="personal__image" />
+                  <span class="loop"></span>
+                </div>
+                <div data-title="Бармены"
+                  data-text="Приготовят любой напиток: чай, кофе или сложный коктейль. Самые виртуозные представители этой профессии способны приковать к себе взгляды гостей феерическим бармен-шоу."
+                  class="swiper-slide">
+                  <img loading="lazy" width="409" height="554" srcset="
+                        images/services/personal-3x@2.jpg 280w,
+                        images/services/personal-3.jpg    320w
+                      " src="images/services/personal-3.jpg" alt="personal-3" class="personal__image" />
+                  <span class="loop"></span>
+                </div>
+                <div data-title="Бармены"
+                  data-text="Приготовят любой напиток: чай, кофе или сложный коктейль. Самые виртуозные представители этой профессии способны приковать к себе взгляды гостей феерическим бармен-шоу."
+                  class="swiper-slide">
+                  <img loading="lazy" width="409" height="554" srcset="
+                        images/services/personal-4x@2.jpg 280w,
+                        images/services/personal-4.jpg    320w
+                      " src="images/services/personal-4.jpg" alt="personal-4" class="personal__image" />
+                  <span class="loop"></span>
+                </div>
+                <div data-title="Официанты"
+                  data-text="Чаще всего работают на банкетах и фуршетах, но могут оказаться полезными и на большом стенде. Разбираются в ассортименте закусок и напитков. Отличаются безупречной вежливостью и этикетом."
+                  class="swiper-slide">
+                  <img loading="lazy" width="409" height="554" srcset="
+                        images/services/personal-5x@2.jpg 280w,
+                        images/services/personal-5.jpg    320w
+                      " src="images/services/personal-5.jpg" alt="personal-5" class="personal__image" />
+                  <span class="loop"></span>
+                </div>
+                <div data-title="Переводчики"
+                  data-text="Синхронный и последовательный перевод требует не только высочайшего знания языка, но и особых природных способностей. Мы подберём профессиональных переводчиков с учётом темы вашего мероприятия."
+                  class="swiper-slide">
+                  <img loading="lazy" width="409" height="554" srcset="
+                        images/services/personal-6x@2.jpg 280w,
+                        images/services/personal-6.jpg    320w
+                      " src="images/services/personal-6.jpg" alt="personal-6" class="personal__image" />
+                  <span class="loop"></span>
+                </div>
+                <div data-title="Хостес и стендистки"
+                  data-text="Хостес и девушки-стендистки привлекают внимание к стенду, интересно рассказывают о компании или продукте, отвечают на вопросы и раздают маркетинговые материалы. Если на стенде есть напитки – угощают ими."
+                  class="swiper-slide">
+                  <img loading="lazy" width="409" height="554" srcset="
+                        images/services/personal-7x@2.jpg 280w,
+                        images/services/personal-7.jpg    320w
+                      " src="images/services/personal-7.jpg" alt="personal-7" class="personal__image" />
+                  <span class="loop"></span>
+                </div>
+                <div data-title="Промоутеры"
+                  data-text="Знают всё о вашем продукте и заряжают гостей своим энтузиазмом. Могут провести лотерею, вручить подарки и раздать сувенирную продукцию."
+                  class="swiper-slide">
+                  <img loading="lazy" width="409" height="554" srcset="
+                        images/services/personal-8x@2.jpg 280w,
+                        images/services/personal-8.jpg    320w
+                      " src="images/services/personal-8.jpg" alt="personal-8" class="personal__image" />
+                  <span class="loop"></span>
+                </div>
+                <div data-title="Промоутеры"
+                  data-text="Знают всё о вашем продукте и заряжают гостей своим энтузиазмом. Могут провести лотерею, вручить подарки и раздать сувенирную продукцию."
+                  class="swiper-slide">
+                  <img loading="lazy" width="409" height="554" srcset="
+                        images/services/personal-9x@2.jpg 280w,
+                        images/services/personal-9.jpg    320w
+                      " src="images/services/personal-9.jpg" alt="personal-9" class="personal__image" />
+                  <span class="loop"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="personal__content">
+            <h3 class="personal__title title font-1">
+              <span class="sub-block"><span data-aos="fade-down" class="inb">Персонал</span><span
+                  class="sub-line"></span></span>
+            </h3>
+            <div class="personal__pagination"></div>
+            <h4 class="personal__subtitle subtitle-1 font-2">
+              <span>Официанты</span>
+            </h4>
+            <p class="personal__text text">
+              Чаще всего работают на банкетах и фуршетах, но могут оказаться
+              полезными и на большом стенде. Разбираются в ассортименте
+              закусок и напитков. Отличаются безупречной вежливостью и
+              этикетом.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cloth">
+      <div class="lead__container">
+        <span class="line-bottom lead__line"></span>
+        <div class="cloth__wrapper wrapper">
+          <h2 class="title cloth__title font-1">
+            <span class="sub-block format__border">
+              <span class="sub-line format__left"></span>
+              <span data-aos="fade-down" class="inb cloth__title-content">Разработка и пошив</span>
+              <span class="sub-line format__right"></span>
+            </span>
+            <span data-aos="fade-down" data-aos-delay="200" class="subtitle inb font-2 format__subtitle">одежды
+            </span>
+          </h2>
+        </div>
+        <div class="cloth__block">
+          <p class="cloth__text text wrapper">
+            Персонал в униформе, выполненной в едином фирменном стиле, создаёт
+            впечатление солидной организации и формирует её позитивный имидж.
+            Продуманность в деталях делает любой ивент ярче и респектабельней.
+            На основе ваших пожеланий наш дизайнер создаст эскизы, а после их
+            доработки и утверждения произведёт одежду для официантов,
+            промоутеров и других сотрудников.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="brand">
+      <h2 class="brand__title-1 wrapper title font-1">
+        <span data-aos="fade-down" class="inb subtitle font-2">Брендированная</span><br />
+        <span data-aos="fade-right" data-aos-delay="200" class="inb">и сувенирная продукция</span>
+      </h2>
+      <div class="brand__wrapper wrapper">
+        <div class="brand__item">
+          <h4 class="brand__title title-1 font-1">
+            <span class="line-left brand__line-left"></span>
+            <span class="line-right brand__line-right"></span>
+            <span class="brand__subtitle-1 sub-block subtitle-1 font-2">
+              <span data-aos="fade-down" class="inb">Полиграфия </span>
+              <span class="sub-line"></span>
+            </span>
+          </h4>
+          <p class="brand__text text-1">
+            Напечатаем меню, пригласительные, стаканы, наклейки, листовки,
+            буклеты, пакеты, каталоги, упаковку, блокноты, записные книжки,
+            ежедневники, календари и любые полиграфические материалы.
+          </p>
+        </div>
+        <div class="brand__item">
+          <h4 class="brand__title title-1 font-1">
+            <span class="line-left brand__line-left"></span>
+            <span class="line-right brand__line-right"></span>
+            <span class="brand__subtitle-1 sub-block subtitle-1 font-2">
+              <span data-aos="fade-down" class="inb">Гастрономия </span>
+              <span class="sub-line"></span>
+            </span>
+          </h4>
+          <p class="brand__text text-1">
+            Изготовим шоколад, печенье, капкейки, макарун, торты, чай, кофе,
+            воду, варенье, мёд, конфеты и любые кондитерские изделия.
+          </p>
+        </div>
+        <div class="brand__item">
+          <h4 class="brand__title title-1 font-1">
+            <span class="line-left brand__line-left"></span>
+            <span class="line-right brand__line-right"></span>
+            <span class="brand__subtitle-1 sub-block subtitle-1 font-2">
+              <span data-aos="fade-down" class="inb">Логотип<br />на ткани
+              </span>
+              <span class="sub-line"></span>
+            </span>
+          </h4>
+          <p class="brand__text text-1">
+            Нанесём логотипы на футболки, бейсболки, толстовки, джемперы,
+            свитеры, куртки, жилетки, фартуки, пледы, полотенца, шарфы,
+            галстуки, платки, многоразовые маски, упаковочные ленты.
+          </p>
+        </div>
+        <div class="brand__item">
+          <h4 class="brand__title title-1 font-1">
+            <span class="line-left brand__line-left"></span>
+            <span class="line-right brand__line-right"></span>
+            <span class="brand__subtitle-1 sub-block subtitle-1 font-2">
+              <span data-aos="fade-down" class="inb">Сувенирная<br />
+                продукция
+              </span>
+              <span class="sub-line"></span>
+            </span>
+          </h4>
+          <p class="brand__text text-1">
+            Забрендируем ручки, органайзеры, посуду, зонты, дождевики,
+            пауэрбанки, флеш-накопители, зарядные устройства, наушники,
+            колонки, значки, зажигали, брелоки, магниты, визитницы, термосы.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="scene">
+      <div class="scene__title-wrapper wrapper">
+        <h2 class="title scene__title lead__title font-1">
+          <span class="sub-block format__border">
+            <span class="sub-line format__left"></span>
+            <span data-aos="fade-down" class="inb scene__title-content">Сцена, стенды, экспозиция</span>
+            <span class="sub-line format__right"></span>
+          </span>
+          <span data-aos="fade-down" data-aos-delay="200" class="inb subtitle font-2 format__subtitle">и другая
+            застройка
+          </span>
+        </h2>
+      </div>
+      <div class="scene__block">
+        <div class="scene__container">
+          <div class="scene__wrapper wrapper">
+            <p class="scene__text text">
+              Сцена, выставочный стенд, фотозона, временная переговорная
+              комната, ресепшн – какие бы зоны ни потребовались на вашем
+              мероприятии, каждая будет безупречно функциональна и визуально
+              привлекательна.
+            </p>
+          </div>
+          <span class="line-bottom lead__line scene__line"></span>
+        </div>
+      </div>
+    </section>
+    <section class="design tech wrapper-left">
+      <div class="design__block tech__block">
+        <div class="tech__mob">
+          <div class="design__block tech__block"></div>
+        </div>
+        <div class="design__content">
+          <h3 class="design__title tech__title title font-1">
+            <span class="design__subtitle subtitle-1 font-2 inb">
+              <span class="sub-block">
+                <span class="inb" data-aos="fade-down">Техническое</span>
+                <span class="sub-line"></span>
+              </span>
+            </span>
+            <span data-aos="fade-right" data-aos-delay="200" class="tech__margin inb">оборудование</span>
+            <span class="design__line-left line-left"></span>
+            <span class="design__line-right line-right"></span>
+            <span class="design__line-bottom line-bottom"></span>
+          </h3>
+          <span class="inb tech__subtitle design__subtitle-1 subtitle-1 font-2">Плазменные экраны
+          </span>
+          <p class="design__text text">
+            Соберём экраны любого размера и конфигурации. Благодаря им
+            участники конференции, посетители концерта или гости на большой
+            свадьбе будут видеть главных действующих лиц и в курсе всего
+            происходящего. Также экраны привлекут к себе внимание и не дадут
+            пройти мимо вашего стенда.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="video">
+      <div class="wrapper scene__title-wrapper">
+        <h2 class="title scene__title lead__title font-1">
+          <span class="sub-block format__border">
+            <span class="sub-line format__left"></span>
+            <span data-aos="fade-down" class="inb subtitle font-2 format__subtitle">Видео-
+            </span>
+            <span class="sub-line format__right"></span>
+          </span>
+          <span data-aos="fade-down" data-aos-delay="200" class="inb">и фотосъёмка</span>
+        </h2>
+      </div>
+      <div class="scene__block video__block">
+        <div class="scene__container">
+          <div class="scene__wrapper wrapper">
+            <p class="video__text text">
+              О важных событиях должна остаться память: операторы и фотографы
+              снимут мероприятие, профессионально обработают материал и
+              смонтируют так, что вы будете с удовольствием возвращаться к
+              нему годы спустя или использовать в PR-целях.
+            </p>
+          </div>
+          <span class="line-bottom lead__line scene__line"></span>
+        </div>
+      </div>
+    </section>
+    <section class="car">
+      <div class="car__block"></div>
+      <div class="wrapper car__wrapper">
+        <div class="info__flex">
+          <div class="info__left">
+            <h2 class="info__caption font-1 title">
+              <span class="info__caption-line"><span data-aos="fade-down">Транспорт</span></span>
+
+              <span data-aos="fade-right" data-aos-delay="200" class="inb info__subcaption font-2 subtitle">
+                и логистика
+              </span>
+            </h2>
+          </div>
+          <div class="info__right text">
+            <p>
+              Современный автопарк, большой выбор автомобилей и автобусов, а
+              также расширенный спектр дополнительных услуг дают вам
+              возможность подобрать транспорт для любых целей. Путешествие,
+              деловая командировка, трансфер, обслуживание официальных лиц,
+              иностранных делегаций, спортивных мероприятий и международных
+              событий – для любой задачи у нашей компании есть решение!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <span class="up">
+      <svg width="18" height="18">
+        <use href="images/sprite.svg#up" />
+      </svg>
+    </span>
+    <div style="opacity: 0" class="overlay">
+      <div class="overlay__wrapper">
+        <div class="overlay__content">
+          <span class="overlay__close"></span>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper wrapper">
+      <a href="index.html" class="footer__link font-1">EUROEVENT</a>
+      <div class="footer__right">
+        <ul class="footer__socials">
+          <li class="footer__social-link">
+            <a href="tel:+79859672024" class="header__social">
+              <svg width="16" height="16" fill="#ffffff">
+                <use href="images/sprite.svg#phone" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-link">
+            <a href="index.html" class="header__social">
+              <svg width="18" height="14" fill="#ffffff">
+                <use href="images/sprite.svg#mail" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-link">
+            <a href="index.html" class="header__social">
+              <svg width="18" height="18" fill="#ffffff">
+                <use href="images/sprite.svg#facebook" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-link">
+            <a href="index.html" class="header__social">
+              <svg width="18" height="18" fill="#ffffff">
+                <use href="images/sprite.svg#whatsapp" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-link">
+            <a href="index.html" class="header__social">
+              <svg width="16" height="16" fill="#ffffff">
+                <use href="images/sprite.svg#telegramm" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-link">
+            <a href="index.html" class="header__social">
+              <svg width="20" height="20" fill="#ffffff">
+                <use href="images/sprite.svg#vk" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <a href="index.html" class="footer__copyright">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/sliders.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/other.css" />
+    <link rel="preload" as="style" href="css/font.css" />
+    <link
+      rel="stylesheet"
+      href="css/font.css"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Euroevent</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="header__wrapper wrapper font-1">
+        <a href="index.html" class="header__image header__img">
+          <img
+            width="187"
+            height="170"
+            src="images/main/logo-medium.png"
+            srcset="
+              images/logo-header.png      1000w,
+              images/main/logo-medium.png 1001w
+            "
+            alt="logo"
+            class="header__img"
+          />
+          <img
+            width="130"
+            height="13"
+            src="images/main/euroevent.svg"
+            alt="euroevent"
+            class="header__text"
+          />
+          <img
+            width="129"
+            height="15"
+            src="images/main/since.svg"
+            alt="since"
+            class="header__since"
+          />
+        </a>
+        <div class="header__nav">
+          <a href="index.html" class="header__link"> Главная страница </a>
+          <a href="services.html" class="header__link">Услуги</a>
+          <a href="portfolio.html" class="header__link">Портфолио</a>
+          <a href="clients.html" class="header__link">Клиенты</a>
+          <a href="about.html" class="header__link">О компании</a>
+          <a href="contacts.html" class="header__link header__link-active"
+            >Контакты</a
+          >
+          <div class="header__languages">
+            <a href="#" class="header__lang">Rus</a>
+            <a href="#" class="header__lang">Eng</a>
+          </div>
+        </div>
+        <ul class="header__socials">
+          <li class="header__social-link">
+            <a href="tel:+79859672024" class="header__social">
+              <svg width="16" height="16" fill="#09121F">
+                <use href="images/sprite.svg#phone" />
+              </svg>
+            </a>
+          </li>
+          <li class="header__social-link">
+            <a href="index.html" class="header__social">
+              <svg width="18" height="14" fill="#09121F">
+                <use href="images/sprite.svg#mail" />
+              </svg>
+            </a>
+          </li>
+          <li class="header__social-link">
+            <a href="index.html" class="header__social">
+              <svg width="18" height="18" fill="#09121F">
+                <use href="images/sprite.svg#whatsapp" />
+              </svg>
+            </a>
+          </li>
+          <li class="header__social-link">
+            <a href="index.html" class="header__social">
+              <svg width="18" height="18" fill="#09121F">
+                <use href="images/sprite.svg#facebook" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <span class="header__mobile"><span class="header__burger"></span></span>
+      </nav>
+    </header>
+    <main>
+      <div class="contacts">
+        <div class="contacts__wrapper wrapper">
+          <h1 data-aos="fade-down" class="contacts__title title font-1">
+            Обратитесь к нам –<br />
+            и вам захочется вернуться
+          </h1>
+          <div class="contacts__grid">
+            <dl class="contacts__list">
+              <dt
+                data-aos="fade-down"
+                data-aos-delay="300"
+                class="contacts__subtitle subtitle-1 font-2"
+              >
+                Адрес:
+              </dt>
+              <dd
+                data-aos="fade-left"
+                data-aos-delay="500"
+                class="contacts__text"
+              >
+                <a
+                  href="https://yandex.by/maps/213/moscow/house/ulitsa_tryokhgorny_val_22s2/Z04YcwFiTkMBQFtvfXt3cHlmbA==/?ll=37.562766%2C55.761558&z=17.66"
+                  >123022, г. Москва, ул. Трёхгорный Вал, д. 22, ст. 2, оф. 9</a
+                >
+              </dd>
+              <dt
+                data-aos="fade-down"
+                data-aos-delay="700"
+                class="contacts__subtitle contacts__margin subtitle-1 font-2"
+              >
+                E-mail:
+              </dt>
+              <dd
+                data-aos="fade-left"
+                data-aos-delay="900"
+                class="contacts__text"
+              >
+                <a href="mailto:Info@euro-event.ru">Info@euro-event.ru</a>
+              </dd>
+            </dl>
+            <form class="contacts__form">
+              <h2 class="contacts__legend title-1 font-1">
+                <span class="subtitle-1 font-2 contacts__sublegend"
+                  >Если остались вопросы,</span
+                >
+                оставьте ваши контакты и мы с Вами свяжемся
+              </h2>
+              <fieldset class="contacts__field">
+                <input
+                  required
+                  type="tel"
+                  placeholder="Телефон"
+                  class="contacts__phone contacts__input"
+                />
+                <input
+                  required
+                  type="email"
+                  placeholder="E-mail"
+                  class="contacts__email contacts__input"
+                />
+              </fieldset>
+              <button type="submit" class="contacts__button button font-1">
+                <span>Отправить</span>
+              </button>
+            </form>
+            <dl class="contacts__list">
+              <dt
+                data-aos="fade-down"
+                data-aos-delay="1100"
+                class="contacts__subtitle subtitle-1 font-2"
+              >
+                Телефон:
+              </dt>
+              <dd
+                data-aos="fade-right"
+                data-aos-delay="1300"
+                class="contacts__text"
+              >
+                <a href="tel:+79859672024">+7 (985) 967-20-24</a>
+              </dd>
+              <dd
+                data-aos="fade-right"
+                data-aos-delay="1400"
+                class="contacts__text"
+              >
+                <a href="tel:+79037502250">+7 (903) 750-22-50</a>
+              </dd>
+              <dd
+                data-aos="fade-right"
+                data-aos-delay="1500"
+                class="contacts__text"
+              >
+                <a href="tel:+79777745419">+7 (977) 774-54-19</a>
+              </dd>
+              <dt
+                data-aos="fade-down"
+                data-aos-delay="1700"
+                class="contacts__subtitle contacts__margin subtitle-1 font-2"
+              >
+                Whatsapp
+              </dt>
+              <dd
+                data-aos="fade-right"
+                data-aos-delay="1900"
+                class="contacts__text"
+              >
+                <a href="https://www.whatsapp.com/?lang=ru">бизнесс-аккаунт</a>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="contacts__block"></div>
+      </div>
+      <span class="up">
+        <svg width="18" height="18">
+          <use href="images/sprite.svg#up" />
+        </svg>
+      </span>
+      <div style="opacity: 0" class="overlay">
+        <div class="overlay__wrapper">
+          <div class="overlay__content">
+            <span class="overlay__close"></span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper wrapper">
+        <a href="index.html" class="footer__link font-1">EUROEVENT</a>
+        <div class="footer__right">
+          <ul class="footer__socials">
+            <li class="footer__social-link">
+              <a href="tel:+79859672024" class="header__social">
+                <svg width="16" height="16" fill="#ffffff">
+                  <use href="images/sprite.svg#phone" />
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-link">
+              <a href="index.html" class="header__social">
+                <svg width="18" height="14" fill="#ffffff">
+                  <use href="images/sprite.svg#mail" />
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-link">
+              <a href="index.html" class="header__social">
+                <svg width="18" height="18" fill="#ffffff">
+                  <use href="images/sprite.svg#facebook" />
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-link">
+              <a href="index.html" class="header__social">
+                <svg width="18" height="18" fill="#ffffff">
+                  <use href="images/sprite.svg#whatsapp" />
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-link">
+              <a href="index.html" class="header__social">
+                <svg width="16" height="16" fill="#ffffff">
+                  <use href="images/sprite.svg#telegramm" />
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-link">
+              <a href="index.html" class="header__social">
+                <svg width="20" height="20" fill="#ffffff">
+                  <use href="images/sprite.svg#vk" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <a href="index.html" class="footer__copyright"
+            >Политика конфиденциальности</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
